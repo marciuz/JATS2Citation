@@ -1,6 +1,13 @@
 # JATS2Citation
 A simple parser for JATS XML for the citation extraction (following the citation rules of PLoS).
 
+## What is this? 
+This is a simple class created to generate on the fly a good citation string for a scientific article stored in JATS XML format. The PHP class extract the information with a DOM parser and make the HTML string.
+
+## What is JATS? 
+The Journal Article Tag Suite (JATS) is an XML format used to describe scientific literature published online. It is a technical standard developed by the National Information Standards Organization (NISO) and approved by the American National Standards Institute with the code Z39.96-2012. (from https://en.wikipedia.org/wiki/Journal_Article_Tag_Suite)
+More info: https://jats.nlm.nih.gov/
+
 ## Usage
 ```php
 // Can be a URL or a local XML file
